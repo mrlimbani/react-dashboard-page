@@ -1,14 +1,13 @@
 import React from 'react'
 import { Switch, Route, BrowserRouter } from 'react-router-dom';
 
-import Login from './components/auth/login';
+import Common from './components/common';
 
 function appRoutes() {
   return (
       <BrowserRouter>
       <Switch>
-          <Route exact path='/' component={Login} />
-          <Route exact path='/login' component={Login} />
+          <Route exact path='/' view='Dashboard' component={Common} />
       </Switch>
       </BrowserRouter>
   )

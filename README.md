@@ -1,4 +1,4 @@
-# Getting Started with Login Page
+# Getting Started with Dashboard Page
 
 This project was bootstrapped with ReactJs [Akash Limbani](https://www.linkedin.com/in/akash-limbani/).
 
